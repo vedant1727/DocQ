@@ -1,2 +1,2 @@
 # Doc
-An online question-answer/Bloging platform for medical practioners to come togather, connect and collaborate on researches.
+An online question-answer/bloging platform for medical practioners to come togather, connect and collaborate on research.
