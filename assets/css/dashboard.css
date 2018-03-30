@@ -1,0 +1,77 @@
+.nav-wrapper .input-field input[type=search]{
+	height:40px!important;
+}
+
+nav .input-field label i{
+	top:-23px;
+	position: absolute;
+}
+
+nav .nav-wrapper i{
+	top:-23px !important;
+	position: absolute;
+}
+
+.question h6{
+	font-size: 1.4rem!important;
+}
+
+.question p{
+	margin-top: 10px!important;
+}
+
+.question span{
+	margin-top: 10px!important;
+}
+
+.blog span{
+	margin-top: 10px!important;
+}
+
+.blog p{
+	margin-top: 10px!important;
+}
+
+.doc-container i{
+	top: 5px;
+    position: relative;
+}
+
+[type="radio"]:checked + label:after, [type="radio"].with-gap:checked + label:before, [type="radio"].with-gap:checked + label:after{
+	color:#9575cd!important;
+}
+
+[type="radio"]:checked + label:after, [type="radio"].with-gap:checked + label:after{
+	color:#9575cd!important;
+}
+
+.modal{
+	max-height: 100%!important;
+}
+
+#search{
+	    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+#sea{
+	border-radius: 20px!important;
+}
+
+.card-title{
+	font-weight: 400!important;
+	color: #565656!important;
+}
+
+.card-title>a{
+	font-weight: 400!important;
+	color: #565656!important;
+}
+
+.card-title>a:hover{
+	font-weight: 400!important;
+	color: #565656!important;
+	text-decoration: underline;
+}

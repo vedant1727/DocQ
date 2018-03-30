@@ -1,0 +1,23 @@
+.doc-container{
+		padding:0 9%;
+	}
+
+#dropdown1 li a{
+color: black !important;
+}
+
+.sidecol p{
+	font-size:20px !important;
+	border-bottom:1px solid #cecece !important;
+	padding-bottom:5px !important;
+	margin-bottom:4px !important;
+}
+.sidecol li{
+	margin: 3px 0 0 15px !important;
+}
+.doc-container i{
+	display:inline!important;
+	font-size:1.5rem !important;
+	padding-left:3px;
+	padding-right:5px;
+}
