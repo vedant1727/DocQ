@@ -192,18 +192,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['register_password']) &&
             // Set parameters
             $param_username = $username;
             $param_password = password_hash($password, PASSWORD_DEFAULT); // Creates a password hash
-            
-           /* $select = mysqli_query($link,"SELECT `email` FROM `user_details` WHERE `username` = '".$param_username."'") or exit(mysql_error());
-
-            if(mysql_num_rows($select)) {
-                ?>
-                    <script type="text/javascript">
-                        alert("Email Already Used");
-                        window.location = "index.php"
-                    </script>
-            <?php  
-            }
-            else*/ 
+		
             if(mysqli_stmt_execute($stmt1)){ ?>
                     <script type="text/javascript">
                         alert("Successfully created new account");
